@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-family: var(--heading-text);
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box section:last-child div span {
+    font-size: 25px;
+}
